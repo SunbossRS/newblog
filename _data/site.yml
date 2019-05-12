@@ -17,7 +17,7 @@ img:
    avatar: "https://ooo.0o0.ooo/2017/05/26/5928368d409dd.png" # your avatar
 
 card: 
-   card_shadow: 1 # card shadow (0-24), 0 is not displayed
+   card_shadow: 3 # card shadow (0-24), 0 is not displayed
    card_hoverable: false # When the hover to deepen the shadow
 
 many_authors: false
@@ -33,26 +33,6 @@ sns_share: # SNS Share Switch
   
 comment:
   used: "" # disqus,livere,gitment,valine
-  # disqus config
-  disqus_shortname: "" # Your disqus 
-  disqus_button: true # disqus load button
-  disqus_proxy: false # # disqus proxy(Do not use)
-  disqus_proxy_url: "" # (Do not use)
-  disqus_api_key: "" # (Do not use)
-  # livere config
-  livere_type: 'city'
-  livere_data_uid: ''
-  # gitment config
-  owner: ""
-  repo: ""
-  client_id: ""
-  client_secret: ""
-  #valine config
-  valine_notify: false #mail notifier
-  valine_verify: false #validation code
-  valine_app_id: ''
-  valine_app_key: ''
-  valine_placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!"
 
 prism:
   themes: prism-okaidia
