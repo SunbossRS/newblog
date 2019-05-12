@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+ <script>
+        var gitalk = new Gitalk({
+              clientID: '{{ data.site.comment.gitalk_clientID }}',
+              clientSecret: '{{ data.site.comment.gitalk_Secret }}',
+              repo: '{{ data.site.comment.gitalk_repo }}',
+              owner: '{{ data.site.comment.gitalk_owner }}',
+              admin: '{{ data.site.comment.gitalk_admin }}',
+              id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+              distractionFreeMode: '{{ datansite.comment.distractionFreeMode }}'  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('disqus_thread')
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
