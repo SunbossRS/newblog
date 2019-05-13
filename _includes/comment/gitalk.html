@@ -4,8 +4,20 @@
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
 <div class="mdui-divider"></div>
-    <button id="load-gitalk" class="mdui-btn mdui-btn-block mdui-center" onclick="comment.load()">加载Gitalk评论</button>
-    <div id="comment"></div>
+    <button id="load-gitalk" class="mdui-btn mdui-btn-block mdui-center" onclick="git_thread.load()">加载Gitalk评论</button>
+    <div id="git_thread"></div>
+    <script>
+var git_thread = {
+    load : 
+    function git_thread(){
+        $('#git_thread').css('display','block');
+            });
+        }
+        }
+        $('#load-gitalk').remove(); 
+    }
+};
+    </script>
  <script>
         var gitalk = new Gitalk({
               clientID: '{{ data.site.comment.gitalk_clientID }}',
@@ -17,7 +29,10 @@
               distractionFreeMode: '{{ datansite.comment.distractionFreeMode }}'  // Facebook-like distraction free mode
             })
 
-            gitalk.render('#load-gitalk')
+            gitalk.render('git_thread')
     </script>
 
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<div class="mdui-divider"></div>
+<div id="readonly" style="padding-top: 16px;">
+</div>
