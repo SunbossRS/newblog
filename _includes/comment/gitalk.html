@@ -1,8 +1,4 @@
-{% if site.data.site.lang == null or site.data.site.lang == "" %}
-{% assign lang = site.data.lang.en-US %}
-{% else %}
-{% assign lang = site.data.lang[site.data.site.lang] %}
-{% endif %}
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <style>
@@ -27,7 +23,7 @@ var comment = {
     }
 };
 </script>
-{% else %}
+
  <script>
         var gitalk = new Gitalk({
               clientID: '{{ data.site.comment.gitalk_clientID }}',
@@ -41,4 +37,5 @@ var comment = {
 
             gitalk.render('comment')
     </script>
+
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
