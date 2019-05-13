@@ -4,6 +4,17 @@
 <div class="mdui-divider"></div>
     <button id="load-gitalk" class="mdui-btn mdui-btn-block mdui-center" onclick="comment.load()">加载Gitalk评论</button>
     <div id="comment"></div>
+<script>
+var comment = {
+    load : 
+    function gitalk(){
+        $('#load-gitalk').css('display','block');
+        }else{
+        $('#load-gitalk').remove(); 
+    }
+};
+</script>
+{% else %}
  <script>
         var gitalk = new Gitalk({
               clientID: '{{ data.site.comment.gitalk_clientID }}',
