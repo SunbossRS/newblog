@@ -1,6 +1,17 @@
-<div style="padding:0px 16px;" id="commentsl"></div>
+{% if site.data.site.lang == null or site.data.site.lang == "" %}
+{% assign lang = site.data.lang.en-US %}
+{% else %}
+{% assign lang = site.data.lang[site.data.site.lang] %}
+{% endif %}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<style>
+    #git_thread{
+        padding: 16px;
+        display: none;
+    }
+</style>
+
 <div class="mdui-divider"></div>
     <button id="load-gitalk" class="mdui-btn mdui-btn-block mdui-center" onclick="comment.load()">加载Gitalk评论</button>
     <div id="comment"></div>
@@ -8,12 +19,15 @@
 var comment = {
     load : 
     function gitalk(){
-        $('#load-gitalk').css('display','block');
+        $('#git_thread').css('display','block');
         }then{
-        $('#load-gitalk').remove(); 
+        $('#git_thread').remove(); 
+        }then{
+        $('#git_thread').add(); 
     }
 };
 </script>
+{% else %}
  <script>
         var gitalk = new Gitalk({
               clientID: '{{ data.site.comment.gitalk_clientID }}',
