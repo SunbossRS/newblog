@@ -1,5 +1,8 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<div class="mdui-divider"></div>
+    <button id="load-gitalk" class="mdui-btn mdui-btn-block mdui-center" onclick="gitalk.load();">加载Gitalk评论</button>
+    <div id="disqus_thread"></div>
  <script>
         var gitalk = new Gitalk({
               clientID: '{{ data.site.comment.gitalk_clientID }}',
