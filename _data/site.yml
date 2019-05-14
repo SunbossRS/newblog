@@ -32,7 +32,7 @@ sns_share: # SNS Share Switch
    telegram: true
   
 comment:
-  used: "gitment" # gitalk
+  used: "gitalk" # gitalk
   # GitalkSettings
   gitalk: true
   gitalk_clientID: '800a929ad18c8e90fdbc'
@@ -57,7 +57,7 @@ google_site_verification: ""  # google search console verification code
 
 baidu_auto_push: false  # if you used baidu auto push to commit links
 
-lang: "Chinese"  # lang
+lang: "zh-cn"  # lang
 
 deploy: "" # if you used coding pages
 
