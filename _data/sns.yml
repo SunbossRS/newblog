@@ -1,32 +1,8 @@
 - name: bilibili
-  url: 
-
-- name: facebook
-  url: 
+  url: https://m.bilibili.com/space/204437680
 
 - name: github
-  url: https://github.com
-
-- name: gplus
-  url: 
-
-- name: instagram
-  url: 
-
-- name: linkedin
-  url: 
-
-- name: telegram
-  url: https://web.telegram.org
-
-- name: tumblr
-  url: 
+  url: https://github.com/sunbossrs
 
 - name: twitter
-  url: https://twitter.com/
-
-- name: weibo
-  url: 
-
-- name: zhihu
-  url: 
+  url: https://twitter.com/mcsunbossrs
