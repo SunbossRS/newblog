@@ -26,10 +26,10 @@ sns_share: # SNS Share Switch
    twitter: true
    facebook: false
    googleplus: false
-   weibo: true
+   weibo: false
    linkedin: false
    qq: true
-   telegram: true
+   telegram: false
   
 comment:
   used: "gitalk" # gitalk
@@ -57,7 +57,7 @@ google_site_verification: ""  # google search console verification code
 
 baidu_auto_push: false  # if you used baidu auto push to commit links
 
-lang: "zh_CN"  # lang
+lang: "cn"  # lang
 
 deploy: "" # if you used coding pages
 
