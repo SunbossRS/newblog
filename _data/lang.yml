@@ -16,10 +16,10 @@ zh-CN:
       download: "下载"
    lastupdate: 
       one: "本文最后更新于"
-      two: "天前，文中所描述的信息可能已发生改变，请谨慎使用。"
+      two: "天前,文中所描述的信息可能已发生改变。"
    readtime: 
-      one: "阅读本文需要"
-      two: "分钟"
+      one: "阅读本文可能需要"
+      two: "分钟。"
    page:
       search: "搜索"
    post:
