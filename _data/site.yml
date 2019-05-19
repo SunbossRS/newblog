@@ -1,7 +1,7 @@
 head: 
-   favicon: "https://ooo.0o0.ooo/2017/05/27/59294212bc16e.png" #  the favicon
-   high_res_favicon: "https://ooo.0o0.ooo/2017/06/08/5939484dc618e.png" #  the favicon using high quality format
-   apple_touch_icon: "https://ooo.0o0.ooo/2017/06/08/5939484dc618e.png" # the iOS Home button icon
+   favicon: "/favicon.ico" #  the favicon
+   high_res_favicon: "/favicon.ico" #  the favicon using high quality format
+   apple_touch_icon: "/favicon.ico" # the iOS Home button icon
    keywords: "blog jekyll 耀日庄主 SunbossRS" #  the site keywords
 
 uiux:
@@ -14,7 +14,7 @@ background:
    purecolor: "#eeeeee" # the background color
 
 img: 
-   avatar: "https://ooo.0o0.ooo/2017/05/26/5928368d409dd.png" # your avatar
+   avatar: "/assets/images/avatar.jpg" # your avatar
 
 card: 
    card_shadow: 8 # card shadow (0-24), 0 is not displayed

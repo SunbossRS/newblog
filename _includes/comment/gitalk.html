@@ -1,3 +1,53 @@
+{% if site.data.site.lang == null or site.data.site.lang == "" %}
+{% assign lang = site.data.lang.en-US %}
+{% else %}
+{% assign lang = site.data.lang[site.data.site.lang] %}
+{% endif %}
+<style>
+    #git_thread{
+        padding: 16px;
+        display: none;
+    }
+</style>
+
+<div class="mdui-divider"></div>
+    <button id="load-git" class="mdui-btn mdui-btn-block mdui-center" onclick="git.load();">加载Gitalk评论</button>
+    <div id="git_thread"></div>
+    <script>
+var git = {
+    load : 
+    function git(){
+        $('#git_thread').css('display','block');
+        }
+        $('#load-git').remove(); 
+    }
+};
+    </script>
+    {% else %}
+    <div id="git_thread"></div>
+    <script>
+ <script>
+        var gitalk = new Gitalk({
+              clientID: '{{ data.site.comment.gitalk_clientID }}',
+              clientSecret: '{{ data.site.comment.gitalk_Secret }}',
+              repo: '{{ data.site.comment.gitalk_repo }}',
+              owner: '{{ data.site.comment.gitalk_owner }}',
+              admin: '{{ data.site.comment.gitalk_admin }}',
+              id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+              distractionFreeMode: '{{ datansite.comment.distractionFreeMode }}'  // Facebook-like distraction free mode
+            })
+
+            gitalk.render('comments')
+    </script>
+{% if site.data.site.comment.disqus_proxy %}
+<div class="mdui-divider"></div>
+<div id="disqusreadonly" style="padding-top: 16px;">
+</div>
+{% endif %}
+{% endif %}
+
+	
+	
 <div style="padding:0px 16px;" id="comments"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>

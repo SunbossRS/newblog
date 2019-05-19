@@ -1,7 +1,3 @@
 SunbossRS:
-  avatar: "https://ooo.0o0.ooo/2017/05/26/5928368d409dd.png"
+  avatar: "/assets/images/avatar.jpg"
   name: "SunbossRS"
-
-test:
-  avatar: "https://dummyimage.com/40x40/ffffff/000000.png&text=Test"
-  name: "Test"
