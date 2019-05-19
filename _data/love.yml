@@ -1,12 +1,12 @@
 header:
     #name: ""
-    favicon: "about:blank"
+    favicon: "https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/lover/blank.png"
     #siteurl: "https://sunbossrs.github.io"
     #introduction: ""
     
 photo:
     photo: true
     pictures: 
-        - "https://i.loli.net/2018/07/31/5b607051aef7d.jpg"
-        - "https://i.loli.net/2018/07/31/5b607052ce870.jpg"
-        - "https://i.loli.net/2018/07/31/5b60705508637.jpg"
+        - "https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/lover/Len.png"
+        - "https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/lover/Mafumafu.jpg"
+        - "https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/lover/good.jpg"
