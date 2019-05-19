@@ -1,8 +1,8 @@
-header:
-    name: "SunbossRS"
-    favicon: "https://ooo.0o0.ooo/2017/06/08/5939484dc618e.png"
-    siteurl: "https://sunbossrs.github.io"
-    introduction: ""
+#header:
+    #name: ""
+    #favicon: "https://ooo.0o0.ooo/2017/06/08/5939484dc618e.png"
+    #siteurl: "https://sunbossrs.github.io"
+    #introduction: ""
     
 photo:
     photo: true
