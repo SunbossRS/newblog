@@ -32,7 +32,7 @@ sns_share: # SNS Share Switch
    telegram: false
   
 comment:
-  used: "disqus" # gitalk
+  used: "gitalk" # gitalk
   # GitalkSettings
   gitalk: true
   gitalk_clientID: '800a929ad18c8e90fdbc'
