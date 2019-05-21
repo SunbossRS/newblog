@@ -5,7 +5,7 @@ baseurl: ""
 author: "SunbossRS"
 paginate: 6
 paginate_path: "/page:num/"
-dburl: "https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master"
+#dburl: "https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master"
 
 plugins:
   - jekyll-sitemap
