@@ -3,9 +3,14 @@ layout: post
 title: 开启新主题！
 date: 2019-04-29 23:08:56 +0800
 categories: Living
-tags: 
+tags: jekyll
 img: 
 ---
+
+开始我的Mdui之旅吧！
+
+***
+
 这次不用原来的主题了。我换了个主题，叫做Mdui主题。  
 我为什么要改用Mdui呢？是因为我感觉有点....落后了....  
 不过总体来说我认为H2O其实还挺好的。  
