@@ -6,14 +6,14 @@ zh-CN:
    editor: 
       content: "内容"
       frontmatter:
-         name: "Front Matter"
+         name: "设置和开头"
          title: "标题"
          date: "日期"
          categories: "分类"
          tags: "标签"
          image: "图像"
       preview: "预览"
-      download: "下载"
+      download: "保存并下载"
    lastupdate: 
       one: "本文最后更新于"
       two: "天前,文中所描述的信息可能已发生改变。"
