@@ -3,6 +3,7 @@
 {% else %}
 {% assign lang = site.data.lang[site.data.site.lang] %}
 {% endif %}
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
 <style>
     #git_thread{
@@ -24,7 +25,7 @@ var git = {
 };
     </script>
 {% else %}
-    <!-- div id="git_thread"></div> -->
+    <div id="git_thread"></div>
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
     <script>
         var gitalk = new Gitalk({
