@@ -1,10 +1,5 @@
-{% if site.data.site.lang == null or site.data.site.lang == "" %}
-{% assign lang = site.data.lang.en-US %}
-{% else %}
-{% assign lang = site.data.lang[site.data.site.lang] %}
-{% endif %}
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> 
 <style>
     #git_thread{
         padding: 16px;
@@ -19,14 +14,12 @@
 var git = {
     load : 
     function git(){
-        $('#git_thread').css('display','block');
+        $('#git_thread').css('display: block;');
         $('#load-git').remove(); 
     }
 };
     </script>
-{% else %}
-    <div id="git_thread"></div>
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
     <script>
         var gitalk = new Gitalk({
               clientID: '{{ data.site.comment.gitalk_clientID }}',
