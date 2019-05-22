@@ -2,6 +2,7 @@
 <style>
     #git_thread{
         padding: 16px;
+        display: none;
     }
 </style>
 
@@ -12,6 +13,8 @@
 var git = {
     load : 
     function git(){
+        $('#git_thread').css('display','block');
+        }else{
         $('#load-git').remove(); 
     }
 };
