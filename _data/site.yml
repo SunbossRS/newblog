@@ -2,7 +2,7 @@ head:
    favicon: "/favicon.ico" #  the favicon
    high_res_favicon: "/favicon.ico" #  the favicon using high quality format
    apple_touch_icon: "/favicon.ico" # the iOS Home button icon
-   keywords: "blog jekyll 耀日庄主 SunbossRS" #  the site keywords
+   keywords: "blog jekyll 耀日庄主 SunbossRS 博客" #  the site keywords
 
 uiux:
    android_chrome_color: "#eeeeee" #  the color of the Chrome address bar
@@ -11,7 +11,7 @@ uiux:
    meng: false # meng
 
 background: 
-   purecolor: "#eeeeee" # the background color
+   purecolor: "#E8D2A1" # the background color
 
 img: 
    avatar: "/assets/images/avatar.jpg" # your avatar
@@ -26,7 +26,7 @@ sns_share: # SNS Share Switch
    twitter: true
    facebook: false
    googleplus: false
-   weibo: false
+   weibo: true
    linkedin: false
    qq: true
    telegram: false
