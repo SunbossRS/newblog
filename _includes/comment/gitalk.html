@@ -17,19 +17,20 @@ var git = {
         $('#git_thread').css('display','block');
         $('#load-git').remove(); 
     }
-    setTimeout(function(){
-        var gitalk = new Gitalk({
-              clientID: '{{ data.site.comment.gitalk_clientID }}',
-              clientSecret: '{{ data.site.comment.gitalk_Secret }}',
-              repo: '{{ data.site.comment.gitalk_repo }}',
-              owner: '{{ data.site.comment.gitalk_owner }}',
-              admin: '{{ data.site.comment.gitalk_admin }}',
-              id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
-              distractionFreeMode: '{{ data.site.comment.distractionFreeMode }}'  // Facebook-like distraction free mode
-            })
-
-            gitalk.render('git_thread')
-    },1000)
 };
+setTimeout(function(){
+     var gitalk = new Gitalk({
+           clientID: '{{ data.site.comment.gitalk_clientID }}',
+           clientSecret: '{{ data.site.comment.gitalk_Secret }}',
+           repo: '{{ data.site.comment.gitalk_repo }}',
+           owner: '{{ data.site.comment.gitalk_owner }}',
+           admin: '{{ data.site.comment.gitalk_admin }}',
+           id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+           distractionFreeMode: '{{ data.site.comment.distractionFreeMode }}'  // Facebook-like distraction free mode
+         })
+
+          gitalk.render('git_thread')
+},1000)
     </script>
+
     <noscript>请确保给予Gitalk运行Javascript的权力。</noscript>
