@@ -1,89 +1,35 @@
-![](/jekylltheme.jpg)
+![TitleImage](/assets/images/jekylltheme.jpg)
 
-# Jekyll Theme MDUI
+# 耀日庄主的博客
+> 最后更新于5月23日。
 
-> A Jekyll theme based on mdui
-
-> 主题停更，只做兼容性维护。期待 V2 吧！
-
-## Contents
-
-* [General](#general)
-* [Demo](#demo)
-* [Quick start](#quick-start)
-* [Docs](#docs)
-* [TODO](#todo)
-* [Note](#note)
-* [Contributing](#contributing)
-* [Development](#development)
-* [License](#license)
-
-## General
-
-[![Version](https://img.shields.io/badge/version-0.5.2-green.svg?style=flat-square)]()
+## 情况
 [![Jekyll](https://img.shields.io/badge/Jekyll-3.5+-green.svg?style=flat-square)](https://jekyllrb.com/)
 [![Gem](https://img.shields.io/gem/dt/jekyll-theme-mdui.svg?style=flat-square)](https://rubygems.org/gems/jekyll-theme-mdui/)
-
 [![Code Climate](https://img.shields.io/codeclimate/maintainability/KeJunMao/jekyll-theme-mdui.svg?style=flat-square&label=code%20climate)](https://codeclimate.com/github/KeJunMao/jekyll-theme-mdui/)
 [![Build Status](https://img.shields.io/travis/KeJunMao/jekyll-theme-mdui.svg?style=flat-square)](https://travis-ci.org/KeJunMao/jekyll-theme-mdui)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![Commitizen friendly](https://img.shields.io/badge/Commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![Author](https://img.shields.io/badge/Author-KeJun-blue.svg?style=flat-square)](https://blog.kejun.me/)
+[![Owner](https://img.shields.io/badge/Owner-SunbossRS-yellow.svg?style=flat-square)](https://sunbossrs.github.io/)
 
-[![Author](https://img.shields.io/badge/author-KeJun-blue.svg?style=flat-square)](https://blog.kejun.space)
+## 注意
+在使用时，需要修改以下内容。
 
-## Demo
-
-[KeJun's Blog](https://blog.kejun.me)
-
-## Quick start 
-
-[Quick start](http://mdui.kejun.me/#/quickstart)
-
-[快速开始](http://mdui.kejun.me/#/zh-cn/quickstart)
-
-## Docs
-
-[Docs](http://mdui.kejun.me/#/)(!!!Need Help!!!)
-
-[中文文档](http://mdui.kejun.me/#/zh-cn/)
-
-## TODO
-
-- [ ] V2
-
-## Note
-
-File Required or Optional:
-
-|files|Required or Optional|Description|
+|文件名|必须修改或可选修改|作用|
 |---  |---                 |---        |
-|mainifest.json|Optional   |Is the only file that every WebExtension must contain.See [here](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json).|
-|sw.js|Optional            |Service Workers.See [here](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers).|
-|search.json|Optional|If you use the search page, it is required.|
-|tags.json|Optional|If you use the tags page, it is required.|
-|_data/friends.yml|Optional|If you use the friends page, it is required.|
-|_data/sns.yml|Optional|It is footer sns,if you want used, it is required.|
-|_data/meng.yml|Optional|It is Meng option,if you want used, it is required.|
-|_data/site.yml|Required|It is theme config.|
-|_data/lang.yml|Required|It is language config.|
-|_data/menus.yml|Required|It is site menus config.|
+|mainifest.json|可选        |是每个WebExtension必须包含的唯一文件.请查看[这里](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json).|
+|sw.js|可选                 |服务工作.看 [这里](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers).|
+|search.json|可选  |如要使用搜索界面，它是必须修改的.|
+|tags.json|可选|如要使用标签页面，它是必须修改的. |
+|_data/friends.yml|可选|如要使用友链页面，它是必须修改的.|
+|_data/sns.yml|可选|它是页尾sns设置.如果你要用，它是必须修改的.|
+|_data/meng.yml|可选|二次元“萌”选项.如要使用，它是必须修改的.|
+|_data/site.yml|必须|博客主题设置.|
+|_data/lang.yml|必须|博客语言设置.|
+|_data/menus.yml|必须|博客菜单设置.|
 
-How to use? See Docs.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/KeJunMao/jekyll-theme-mdui. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, and `assets` tracked with Git will be released.
-
-## License
-
+## 许可证
 [![license](https://img.shields.io/github/license/KeJunMao/jekyll-theme-mdui.svg?style=flat-square)](https://github.com/KeJunMao/jekyll-theme-mdui/blob/master/LICENSE.txt)
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+这个网站仓库基于开源空间Github，并支持许可证[MIT](https://opensource.org/licenses/MIT).
 
