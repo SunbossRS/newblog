@@ -4,6 +4,21 @@
   describe: 二次元智障
 
 - name: 童年是个风筝的博客
-  image: 
+  image: "https://www.zhangqirun.com/assets/img/profile.jpg"
   url: https://sctop.github.io
   describe: 小人程序员
+
+- name: 我的世界联机组队群
+  image:
+  url: https://mcog.github.io
+  describe: 我的世界组织
+
+- name: MFZ-我的世界玩家交流群
+  image:
+  url: https://mcplyrexcgp.github.io
+  describe: 我的世界永恒的玩家交流组织
+
+- name: 我的世界UiPack材质包官网
+  image:
+  url: https://uipack.techplayer.org/
+  describe: 我的世界基岩版新型材质包官网
