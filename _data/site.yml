@@ -11,13 +11,13 @@ uiux:
    meng: false # meng
 
 background: 
-   purecolor: "#E8D2A1" # the background color
+   purecolor: "img('/assets/images/logo-chhandwrite.jpg')" # the background color
 
 img: 
    avatar: "/assets/images/avatar.jpg" # your avatar
 
 card: 
-   card_shadow: 8 # card shadow (0-24), 0 is not displayed
+   card_shadow: 9 # card shadow (0-24), 0 is not displayed
    card_hoverable: false # When the hover to deepen the shadow
 
 many_authors: false
@@ -25,7 +25,7 @@ many_authors: false
 sns_share: # SNS Share Switch
    twitter: true
    facebook: false
-   googleplus: false
+   googleplus: true
    weibo: true
    linkedin: false
    qq: true
