@@ -8,13 +8,13 @@
   url: https://sctop.github.io
   describe: 小人程序员
 
-- name: 我的世界联机组队群
-  image:
+- name: MCOG Studio 官方网站
+  image: https://mcog.xyz/img/minilogo.png
   url: https://mcog.github.io
-  describe: 我的世界组织
+  describe: MCOG Studio 是一个 Minecraft 玩家组织，自 2016 年 9 月 30 日创立以来，我们致力于为 Minceaft 玩家创造便利。
 
-- name: MFZ-我的世界玩家交流群
-  image:
+- name: MFZ-我的世界玩家交流群官网
+  image: about:blank
   url: https://mcplyrexcgp.github.io
   describe: 我的世界永恒的玩家交流组织
 
@@ -22,3 +22,8 @@
   image:
   url: https://uipack.techplayer.org/
   describe: 我的世界基岩版新型材质包官网
+
+- name: Minecraft.net
+  image:
+  url: https://minecraft.net
+  describe: 我的世界官网
