@@ -1,44 +1,64 @@
 #-- Header
-background:
-
+background:https://ooo.0o0.ooo/2017/06/19/5947b272d418b.jpg
 headerword: 耀日庄主的友情链接
 
 #-- Information
-- name: KeJun
-  image: https://ooo.0o0.ooo/2017/05/26/5928368d409dd.png
-  url: https://kejun.me
-  describe: '二次元智障..'
-
-- name: 童年是个风筝的博客
-  image: "https://www.zhangqirun.com/assets/img/profile.jpg"
-  url: https://sctop.github.io
-  describe: '小人程序员'
-
-- name: MCOG Studio 官方网站
-  image: https://mcog.xyz/img/minilogo.png
-  url: https://mcog.github.io
-  describe: '我们致力于为 Minceaft 玩家创造便利..'
-
-- name: MFZ-我的世界玩家交流群官网
-  image: https://dummyimage.com/1000x1000/ffffff/000000&text=MFZ
-  url: https://mcplyrexcgp.github.io
-  describe: '我的世界永恒的玩家交流组织~'
-
-- name: 我的世界UiPack材质包官网
-  image: https://dummyimage.com/1000x1000/ffffff/000000&text=UiPack
-  url: https://uipack.techplayer.org/
-  describe: '我的世界基岩版新型材质包官网'
-
-- name: Minecraft.net
+- name: '我的世界官网 Minecraft'
   image: https://dummyimage.com/1000x1000/ffffff/000000&text=MC
   url: https://minecraft.net
   describe: '我的世界官网'
 
-- name: 我的世界自定义成就生成
+- name: 'MFZ-我的世界玩家交流群官网'
+  image: https://dummyimage.com/1000x1000/ffffff/000000&text=MFZ
+  url: https://mcplyrexcgp.github.io
+  describe: '我的世界永恒的玩家交流组织~'
+
+- name: '我的世界壁纸生成'
+  image: https://dummyimage.com/1000x1000/ffffff/000000&text=Nova
+  url: https://minecraft.novaskin.me/wallpapers/mobile
+  describe: '我的世界Nova壁纸生成器'
+
+- name: 'MCOG Studio 官方网站'
+  image: https://mcog.github.io/favicon.ico #img/minilogo.png
+  url: https://mcog.github.io
+  describe: '致力于为 Minceaft 玩家创造便利..'
+
+- name: '我的世界自定义成就生成'
   image: https://dummyimage.com/1000x1000/ffffff/000000&text=成就
   url: https://mc.whitegem.net
   describe: '你获得了一个 自定义成就！'
 
-- name: 我的世界壁纸生成
-  image: https://dummyimage.com/1000x1000/ffffff/000000&text=Nova
-  url: https://minecraft.novaskin.me/wallpapers/mobile
+- name: '我的世界UiPack材质包官网'
+  image: https://dummyimage.com/1000x1000/ffffff/000000&text=UiPack
+  url: https://uipack.techplayer.org/
+  describe: '我的世界基岩版新型材质包官网'
+
+- name: 'KeJun'
+  image: https://ooo.0o0.ooo/2017/05/26/5928368d409dd.png
+  url: https://kejun.me
+  describe: '二次元智障..'
+
+- name: '童年是个风筝的博客'
+  image: "https://www.zhangqirun.com/assets/img/profile.jpg"
+  url: https://sctop.github.io
+  describe: '小人程序员'
+
+- name: 'Tea9的博客'
+  image: 
+  url: https://tea9.github.io
+  describe: '安卓开发者、程序员'
+
+- name: 'GlomyGhost的博客'
+  image:
+  url: https://gloomyghost.com
+  describe: '喜欢作死的连废'
+
+- name: '一之笔'
+  image:
+  url: https://yizibi.github.io
+  describe: ''
+
+- name: '文科中的技术宅'
+  image:
+  url: https://townwang.com
+  describe: ''
