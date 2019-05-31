@@ -50,6 +50,7 @@ title: 404
        <div class="mdui-card-media mdui-ripple k-post-media mdui-valign k-noimg">
            {% for error in site.data.lang[site.data.site.lang].error %}
            <h1><a href="{{ "/" | prepend: site.baseurl }}">{{ error.main }}</h1> <br> <span class="mdui-text-color-blue">{{ error.404 }}</span></a>
+           {% endfor %}
        </div>
     </div>
     </div>
