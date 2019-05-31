@@ -46,8 +46,7 @@ title: 404
     <div class="animated bounceIn mdui-card k-list-card mdui-shadow-{{site.data.site.card.card_shadow}} {% if site.data.site.card.card_hoverable == true%}mdui-hoverable{% endif %}">
        <div class="mdui-card-media mdui-ripple k-post-media mdui-valign k-noimg">
            {% assign error = site.data.lang[site.data.site.lang].error %}
-           <h1><a href="{{ "/" | prepend: site.baseurl }}">{{ error.main[1] }}</h1> <br> <span class="mdui-text-color-blue">{{ error.404[1] }}</span></a>
-           {% endassign %}
+           <h1><a href="{{ "/" | prepend: site.baseurl }}">{{ error.main[1] }}</h3> <br> <span class="mdui-text-color-blue">{{ error.404[1] }}</span></a>
        </div>
     </div>
     </div>
