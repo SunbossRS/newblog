@@ -2,13 +2,6 @@
 layout: default
 title: 404
 ---
-{% if site.data.site.lang == null or site.data.site.lang == "" %}
-{% assign lang = site.data.lang.en-US %}
-{% else %}
-{% assign lang = site.data.lang[site.data.site.lang] %}
-{% endif %}
-{% for lang in site.data.lang[site.data.site.lang] %}
-
 <div class="k-posts-list"></div>
 <style>
   .k-list-card{
@@ -50,25 +43,14 @@ title: 404
   font-weight: inherit;
 }
 </style>
+{% for lang in site.data.lang.[site.data.site.lang] %}
 <div class="mdui-row-md-3 mdui-row-sm">
     <div class="mdui-col">
     <div class="animated bounceIn mdui-card k-list-card mdui-shadow-{{site.data.site.card.card_shadow}} {% if site.data.site.card.card_hoverable == true%}mdui-hoverable{% endif %}">
        <div class="mdui-card-media mdui-ripple k-post-media mdui-valign k-noimg">
-           <h1><a href="{{ "/" | prepend: site.baseurl }}">{{ lang.error.main}}</h1> <br> <span class="mdui-text-color-blue">{{ lang.error.404 }}}</span></a>
+           <h1><a href="{{ "/" | prepend: site.baseurl }}">{{ lang.error.main }}</h1> <br> <span class="mdui-text-color-blue">{{ lang.error.404 }}</span></a>
        </div>
     </div>
     </div>
 </div>
-    {% include content/component/lazyload.html %}
-      <script>
-    Array.prototype.forEach.call(document.querySelectorAll(".mdui-card-media"), function(a) {
-        var b = a.querySelector("a");
-        if (!b) {
-            return
-        }
-        a.addEventListener("click", function() {
-            b.click();
-        })
-    });
-  </script>
 {% endfor %}
