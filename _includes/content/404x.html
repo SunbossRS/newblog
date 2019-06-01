@@ -38,10 +38,16 @@
   font-size: 24px;
   font-weight: inherit;
 }
+.k-head-card-content .mdui-card-header-title{
+line-height: 40px;
+margin-left: 0;
+}
+.k-head-card-content{
+margin-right: 12px;
+}
 </style>
 
-<div class="mdui-row-md-3 mdui-row-sm">
-    <a href="{{ "/" | prepend: site.baseurl }}">
+<div class="mdui-row-md-4 mdui-row-sm">
     <div class="mdui-col">
     <div class="animated bounceIn mdui-card k-list-card mdui-shadow-{{site.data.site.card.card_shadow}} {% if site.data.site.card.card_hoverable == true%}mdui-hoverable{% endif %}">
        <div class="mdui-card-media mdui-ripple k-post-media mdui-valign k-noimg">
@@ -49,5 +55,9 @@
        </div>
     </div>
     </div>
-    </a>
+</div>
+<div class="mdui-divider"></div>
+  <div class="mdui-card-header k-head-card-content">
+    <a href="{{ "/" | prepend: site.baseurl }}"><div class="mdui-card-header-title">耀日庄主的友情链接</div></a>
+  </div>
 </div>
