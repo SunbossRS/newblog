@@ -1,15 +1,13 @@
 ﻿---
 layout: post
 title: '想着过去的事情'
-subtitle: '那些时光多么好啊.........'
-description: '哎........'
-tags: 思想
-category: miss
-date: 2018-05-05
-keyword: 想念-回忆
+tags: 思考
+categories: dump
 cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-The-Past/cover.png'
 ---
 
+可怜多玩我的世界和那些回不去MC的人。  
+---
 # 写在前面的话
 
 我们先来说一说多玩盒子.
