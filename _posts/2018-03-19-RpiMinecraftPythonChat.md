@@ -2,7 +2,6 @@
 layout: post
 title: '在树莓派里使用py给mc发送信息'
 tags: minecraft 树莓派
-keywords: py 树莓派 我的世界 mc rpi
 categories: Living
 img: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/py-rpi/cover.jpg
 ---
