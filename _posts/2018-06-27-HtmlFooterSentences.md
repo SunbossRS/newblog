@@ -2,7 +2,7 @@
 layout: post
 title: '如何让你的博客结尾显示名言警句'
 tags: jekyll 反馈 网站
-category: dump
+categories: dump
 ---
 
 使用lwl12的精简源。
