@@ -6,6 +6,9 @@ categories: Living dump
 img: 'https://ooo.0o0.ooo/2017/05/27/5929234e802ca.jpg
 ---
 
+
+
+
 1. 打开`github.com`  
 2. 注册一个账号  
 3. 点开右上角的加号，Add a repository  
