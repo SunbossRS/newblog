@@ -1,24 +1,19 @@
 ---
 title: 'Ubuntu系统安装apache'
-subtitle: '又是下载站，也能网站制作'
 layout: post
-category: tech
-tags: 教程 linux
-keywords: 教程 linux
-date: 2018-05-09
-description: '这是一个web server'
+category: Living
+tags: linux
 cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/cover.png
 ---
-
 ~~你需要一个好的linux系统~~  
-![pic]![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/04.jpg)
+
+![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/04.jpg)
 安装apache。
 ```bash
 sudo apt-get install apache2
 ```
 他会叫你是否确认安装，你就选yes。  
 ![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/01.jpg)  
-  
 ![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/02.jpg)  
 安装完成后，你就可以使用以下命令调试apache。
 开启apache
