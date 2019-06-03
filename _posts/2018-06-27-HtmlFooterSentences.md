@@ -14,5 +14,5 @@ categories: dump
 <p>
   <script type="text/javascript" src="https://api.lwl12.com/hitokoto/main/get?encode=js&charset=utf-8"></script><div id="lwlhitokoto"><script>lwlhitokoto()</script></div>
 </p>
-``
+```
 保存，再上传，看看你的网站页尾发生了什么？
