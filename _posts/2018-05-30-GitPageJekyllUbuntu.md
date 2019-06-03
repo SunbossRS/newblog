@@ -2,7 +2,7 @@
 layout: post
 title: 'ubuntu使用GitPage搭建Jekyll'
 tags: jekyll
-category: Living dump
+categories: Living dump
 img: 'https://ooo.0o0.ooo/2017/05/27/5929234e802ca.jpg
 --
 1. 打开`github.com`  
