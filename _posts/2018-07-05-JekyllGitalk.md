@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '在jekyll博客里设置gitalk评论系统'
-tags: jekyll 反馈
+tags: jekyll 
 categories: Living dump
 ---
 **转自[tea9博客的gitalk教程](https://tea9.xyz/2018/06/24/gitali_config.html)**  
