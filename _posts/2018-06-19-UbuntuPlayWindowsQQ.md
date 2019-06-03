@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'ubuntu18.04运行wine QQ'
-tags: linux ubuntu 教程
-categories: linux buntu
+tags: linux ubuntu
+categories: dump
 ---
 
 新版本ubuntu_
