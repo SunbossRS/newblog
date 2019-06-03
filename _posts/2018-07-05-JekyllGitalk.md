@@ -1,12 +1,12 @@
 ---
 layout: post
 title: '在jekyll博客里设置gitalk评论系统'
-subtitle: '转载自tea9.'
 tags: jekyll 反馈
-category: tech
+categories: Living dump
 ---
 **转自[tea9博客的gitalk教程](https://tea9.xyz/2018/06/24/gitali_config.html)**  
 **文章内容略有修改，请知悉!**
+---
 
 ### 前言
 大家好。今天来给大家介绍一款评论软件，它叫做[gitalk](https://gitalk.github.io)。  
@@ -60,51 +60,32 @@ comments:
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 ```
-
-然后往下翻 或者搜索字段`<section class="post-footer-item comment">`找到他。  
-如果没有，其实位置就在'最后一篇博文'的显示位置下方。  
-请在`{ % if page.previous.url % }`的`{ % endif % }`下面的`</section>`里换行，然后输入`<section class="post-footer-item comment">`。  
-  
-继续。找到`<section class="post-footer-item comment">`后，在该文段下面添加以下字符：
+找到适合放评论的位置后，在该文段下面添加以下字符：
 ```html
-<div id="disqus_thread"></div> //如果你的主题自带disqus，请省略该行，直接把下面这一行的内容添加进去。
-<div id="gitalk_container"></div>
+<div id="git_thread"></div> //如果你的主题自带disqus，请省略该行，直接把下面这一行的内容添加进去。
 ```
-添加完之后呢，
-我们先了解一下几个大括号表达式：
+添加完之后呢，我们先了解一下几个大括号表达式：
 意思所指。  
 ![pic]({{ site.imgbed }}/img/JekyllGitalk/01.png)
 site代表_config.yml  
 comment代表在列comment里的项(在'comment:'后面按了两个空格后输入的内容为comment的项,之后隔一行后不再按两个空格'对齐一起'可退出该项)  
 至于这些gitalk_xxx的，我刚才写的。  
 在快要接近结尾的地方，**不要是</body>，也不要是</html>的地方，是在快要接近</body>的地方里**，添加以下字段：
-```post.html
-
-  {% if site.comments.gitalk %}
-  <script>
-    var gitalk = new Gitalk({
-      clientID: '输入clientid表达式',
-      clientSecret: '输入secret表达式',
-      repo: '输入gitalk repo表达式',
-      owner: '输入gitalk owner表达式',
-      admin: '输入gitalk admin表达式',
-      id: location.pathname,     
-      distractionFreeMode: '输入distractionFreeMode表达式'  
-    })
-    gitalk.render('gitalk_container')
-  </script>
-{% endif %}
-
-```
-
-由于前面我们在 `_config.yml` 里输入过gitalk注册的消息，这里直接用*大括号表达式*.就是这么懒~  
-  
-接下来，输入以下内容：
 ```html
-// 确保是在{ %  include footer.html  % }下面
-
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '输入clientid表达式',
+    clientSecret: '输入secret表达式',
+    repo: '输入gitalk repo表达式',
+    owner: '输入gitalk owner表达式',
+    admin: '输入gitalk admin表达式',
+    id: location.pathname,     
+    distractionFreeMode: '输入distractionFreeMode表达式'  
+  })
+  gitalk.render('git_container')
+</script>
 ```
-
+由于前面我们在 `_config.yml` 里输入过gitalk注册的消息，这里直接用*大括号表达式*.就是这么懒~  
 就完事了~  
 *感谢@tea9的支持和他在他的文章评论里发给我的修改内容*
