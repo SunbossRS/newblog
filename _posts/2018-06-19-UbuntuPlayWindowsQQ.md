@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 'ubuntu18.04运行wine windowsQQ'
-description: '这次是纯纯正正的ubuntu了！'
+title: 'ubuntu18.04运行wine QQ'
 tags: linux ubuntu 教程
-keywords: linux ubuntu 教程
-category: tech
-cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/ubt18.04/Screenshot%20from%202018-06-16%2019-32-41.png'
+categories: linux buntu
 ---
+
+新版本ubuntu_
+---
+
 ### 1.下载wine
 首先,我们运行命令:
 ```bash
@@ -57,15 +58,14 @@ winecfg
 *dwrite.dll            -->  原装(windows)
 ```
 ![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/02.png)  
-(这是简便。。)  
   
 亲测：  
-停用`ntoskrnl.exe`是为了解决无法正常启动QQ的问题，使用原装windows的`riched20`是为了规避无法输入用户名的Bug，停用`txplatform.exe`是为了避免QQ无法完整退出而滞留整个Wine容器的问题，使用原装的`*msls31.dll`和`*dwrite.dll`是因为不要让这两个控件因为不受控制而让QQ突然崩溃。  
+停用`ntoskrnl.exe`是为了解决无法正常启动QQ的问题，使用原装windows的`riched20`是为了规避无法输入用户名的Bug，停用`txplatform.exe`是为了避免QQ无法完整退出而滞留整个Wine容器的问题，使用原装的`msls31.dll`和`dwrite.dll`是因为不要让这两个控件因为不受控制而让QQ突然崩溃。  
 然后保存.  
 ![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunQQonUbuntu18.04/03.png)  
 ### 4. 设置字体(修复中文乱码的bug)
 打开nano或者gedit然后输入以下内容：（我这里用root运行nano）
-```regedit
+```reg
 REGEDIT4
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]
 "Arial"="WenQuanYi Zenhei"
