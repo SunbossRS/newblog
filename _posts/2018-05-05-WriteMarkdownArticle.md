@@ -2,7 +2,7 @@
 layout: post
 title: '写一篇Markdown博客文章'
 tags: 思考
-category: Living dump
+categories: Living dump
 img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/lovely-photo/SteveGet.jpeg'
 ---
   
