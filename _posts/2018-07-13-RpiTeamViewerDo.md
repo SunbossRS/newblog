@@ -1,13 +1,12 @@
 ---
 layout: post
 title: '树莓派使用teamviewer'
-description: 'teamviewer...我用过比较好的一个远程控制软件之一。你可以在家里开着树莓派，在外远程控制树莓派！不过，小心一下你的树莓派会很热。'
 tags: 树莓派
-category: tech
-cover: 'https://gitee.com/srsyrzz/repository/raw/master/blogfile/tviewer-rpi/1521279443148_orig.jpg'
+categories: Living
 ---
+
 Hello，大家好，这次我们来讲下怎么在树莓派运行team viewer。  
-  
+---
 [点击这里](https://teamviewer.com/zhcn/download/linux)打开team viewer的下载站。  
 ![gif](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunTeamViewerOnRaspberryPi/01.gif)  
   
