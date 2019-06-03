@@ -2,7 +2,7 @@
 layout: post
 title: 'jekyll=开源站？'
 tags: jekyll 
-category: dump Living
+categories: dump Living
 ---
 
 什么时候露出了开源站的本质...  
