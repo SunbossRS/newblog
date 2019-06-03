@@ -1,7 +1,7 @@
 ---
 title: '在树莓派3里运行我的世界1.12.1'
 layout: post
-category: Living
+categories: Living
 img: 'http://shumeipai.nxez.com/wp-content/uploads/2017/09/20170910155453155-0.jpg'
 tags: 树莓派 minecraft
 ---
