@@ -1,7 +1,7 @@
 ---
 title: 'Ubuntu系统安装apache'
 layout: post
-category: Living
+categories: Living
 tags: linux
 cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/cover.png
 ---
