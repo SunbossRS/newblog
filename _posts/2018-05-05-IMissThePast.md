@@ -3,7 +3,7 @@ layout: post
 title: '想着过去的事情'
 tags: 思考
 categories: dump
-cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-The-Past/cover.png'
+img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-The-Past/cover.png'
 ---
 
 可怜多玩我的世界和那些回不去MC的人。  
