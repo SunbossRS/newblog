@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> 
 <style>
     #git_thread{
         padding: 16px;
@@ -8,21 +7,21 @@
 </style>
 
 <div class="mdui-divider"></div>
-    <button id="load-git" class="mdui-btn mdui-btn-block mdui-center" onclick="git.load();">加载Gitalk评论</button>
-    <div id="git_thread"></div>
-    <script type="text/javascript">
+<button id="load-git" class="mdui-btn mdui-btn-block mdui-center" onclick="git.load();">加载Gitalk评论</button>
+<div id="git_thread"></div>
+<script type="text/javascript">
 var git = {
     load : 
     function git(){
         $('#git_thread').css('display','block');
         $('#load-git').remove(); 
-        $('#git_thread').sleep(1000);
+        $('#git_thread').sleep(2000);
     }
 };
     </script>
 
     <script type="text/javascript>
-      var gitalk = new Gitalk({
+      const gitalk = new Gitalk({
         clientID: '{{ data.site.comment.gitalk_clientID }}',
         clientSecret: '{{ data.site.comment.gitalk_Secret }}',
         repo: '{{ data.site.comment.gitalk_repo }}',
