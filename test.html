@@ -3,36 +3,19 @@ layout: default
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
-<style>
-    #git_thread{
-        padding: 16px;
-        display: block;
-    }
-</style>
-
-<div class="mdui-divider"></div>
-<!-- button id="load-git" class="mdui-btn mdui-btn-block mdui-center" onclick="git.load();">加载Gitalk评论</button -->
+<div class="mdui-
 <div id="git_thread"></div>
-<!--script type="text/javascript">
-var git = {
-    load : 
-    function git(){
-        $('#git_thread').css('display','block');
-        $('#load-git').remove(); 
-        $('#git_thread').sleep(2000);
-    }
-};
-</script -->
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-    <script type="text/javascript">
-      const gitalk = new Gitalk({
-        clientID: '{{ data.site.comment.gitalk_clientID }}',
-        clientSecret: '{{ data.site.comment.gitalk_Secret }}',
-        repo: '{{ data.site.comment.gitalk_repo }}',
-        owner: '{{ data.site.comment.gitalk_owner }}',
-        admin: '{{ data.site.comment.gitalk_admin }}',
-        id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
-        distractionFreeMode: '{{ data.site.comment.distractionFreeMode }}'  // Facebook-like distraction free mode
-      });
-        gitalk.render('#git_thread');
-    </script>
+<script type="text/javascript">
+var gitalk = new Gitalk({
+   clientID: '{{ data.site.comment.gitalk_clientID }}',
+   clientSecret: '{{ data.site.comment.gitalk_Secret }}',
+   repo: '{{ data.site.comment.gitalk_repo }}',
+   owner: '{{ data.site.comment.gitalk_owner }}',
+   admin: '{{ data.site.comment.gitalk_admin }}',
+   id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+   distractionFreeMode: '{{ data.site.comment.distractionFreeMode }}'  // Facebook-like distraction free mode
+});
+
+gitalk.render('git_thread');
+</script>
