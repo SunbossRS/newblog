@@ -144,7 +144,7 @@ __强调__
 输入:
 ```
 First  | Second  | Third 
--------|---------|--------
+------ |-------- |--------
 Content| Play    | Access
 Explore| Kernel  | Funtion
 Search | None    | Act
@@ -152,16 +152,16 @@ Call   | Language| text
 box    | Set     | Attack
 ```
 输出:  
-First  | Second  | Third 
--------|---------|-------- 
-Content| Play    | Access
-Explore| Kernel  | Funtion
-Search | None    | Act
-Call   | Language| text
-box    | Set     | Attack
+First   |Second   |Third
+------- |-------  |------
+Content | Play    | Access
+Explore | Kernel  | Funtion
+Search  | None    | Act
+Call    | Language| text
+box     | Set     | Attack
 
-
-### 一般写Jekyll Markdown文章的开头是这样的:
+### Yaml Header
+一般写Jekyll Markdown文章的开头是这样的:
 ```
 ---
 layout: post
@@ -170,6 +170,6 @@ tags: 标签。以一个空格来分隔标签
 category: 归档
 ---
 ```
-记住，在一个选项冒号的后边要空一格。   
+所以要记住，在一个选项冒号的后边要空一格。   
   
 现在就讲到这么多了，快去写一篇你的博文吧！
