@@ -143,25 +143,25 @@ __强调__
 需要横纵对齐。  
 输入:
 ```
-First    | Second   | Third 
----------|----------|-----------
-Content  | Play     | Access
-Explore  | Kernel   | Funtion
-Search   | None     | Act
-Call     | Language | text
-box      | Set      | Attack
+First  | Second  | Third 
+-------|---------|--------
+Content| Play    | Access
+Explore| Kernel  | Funtion
+Search | None    | Act
+Call   | Language| text
+box    | Set     | Attack
 ```
 输出:  
-First    | Second   | Third 
----------|----------|-----------
-Content  | Play     | Access
-Explore  | Kernel   | Funtion
-Search   | None     | Act
-Call     | Language | text
-box      | Set      | Attack
+First  | Second  | Third 
+-------|---------|-------- 
+Content| Play    | Access
+Explore| Kernel  | Funtion
+Search | None    | Act
+Call   | Language| text
+box    | Set     | Attack
 
-### 
-一般写Jekyll Markdown文章的开头是这样的:
+
+### 一般写Jekyll Markdown文章的开头是这样的:
 ```
 ---
 layout: post
