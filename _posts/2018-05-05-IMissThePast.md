@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: '想着过去的事情'
 tags: 思考
