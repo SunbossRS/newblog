@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: '在树莓派里使用py给mc发送信息'
 tags: minecraft 树莓派
