@@ -9,6 +9,8 @@ img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-T
 可怜多玩我的世界和那些回不去MC的人。  
 ---
 
+<iframe height="0%" weidth="0%" src="https://music.163.com/m/song?id=529659114"></iframe>
+
 ### 写在前面的话
 我们先来说一说多玩盒子.
 你们可能连多玩盒子现在都读成了炸妈盒子了。
@@ -32,7 +34,7 @@ img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-T
 我再也不能像以前那样在外吃饭..  
 我再也不能像以前那样放松..  
 我再也不能像以前那样....  
-.......
+...
 
 ### 技术党 这个称号给予了我
 我虽然已经不能那样子了，但是...手机啊，电脑啊，编程啊，树莓派这些东西在让我成为技术党呢。  
@@ -42,7 +44,7 @@ img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-T
 这个人是我回忆之中的一个人。她很特别，她是json大佬，~~用的是华为手机~~，还会4d皮肤，而女编程员我还是第一次见过.. 
 
 ### 回忆 苍博士
-不瞒跟你们说，我认识老苍2年了(截止今天，2018年)。  
+不瞒跟你们说，我认识老苍3年多了(截止今天，2019年)。  
 我是在老苍的一篇头条文章认识的说。而那一天，是~~下雨天~~一个晴朗的日子...
 
 ### 回忆 老赵
