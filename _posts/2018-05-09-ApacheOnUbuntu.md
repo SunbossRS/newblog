@@ -56,12 +56,10 @@ sudo apache2ctl- k restart
 就会看到```it's work!```的字样了。  
 ![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/RunApacheOnUbuntu/05.jpg))
 
-### 下载站
+### 开源站
 
-如果你不想让这个网站```it's work!```，要不然的话，就会失去他的一个价值:开源站！！
-如果你要把他变更为下载站的话，就要
-> 将Apache24/htdocs文件夹下面的index.html删除，因为默认显示这个页面。  
-我们刚才看到的 It's works! 页面就是这个文件的内容，然后将我们的文件及文件夹放到Apache24\htdocs下面，就可以成为下载站了。  
-这时候，你看到的标题是```index of *你的文件夹路径*```了。  
+如果你不想让这个网站`it's work!`，你可以试一试改成开源站！  
+!> 将`Apache24/htdocs`文件夹下面的`index.html`删除，因为默认显示这个页面。  
+我们刚才看到的`It's works!`页面就是这个文件的内容，然后将我们的文件及文件夹放到`Apache24/htdocs`下面，就可以成为开源站了。这时候，你看到的标题是`index of /`了。  
   
 
