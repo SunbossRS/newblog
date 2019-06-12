@@ -6,7 +6,8 @@ categories: dump
 img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-The-Past/cover.png'
 ---
 
-可怜多玩我的世界和那些回不去MC的人。  
+可怜多玩我的世界和那些回不去MC的人。
+
 ---
 
 <iframe height="0" weidth="0" src="https://music.163.com/m/song?id=529659114&auyoplay=true"></iframe>
