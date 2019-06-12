@@ -9,9 +9,9 @@ img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/lovely-photo
 我这里用的是Jekyll创建的博客，它可以支持用markdown写博文。  
 可以利用Jekyll写博文。  
 写一篇Markdown博文要有好的编辑器。你可以用系统自带的记事本。对于萌新来说，可以使用Markdown的编辑器.  
-!> Windows用户可以用`MarkdownPad`或其他。  
-!> Linux用户可以用自带的编辑器或其他，你自己看着办。  
-!> Android用户可以用`MarkdownX`或其他。    
+> Windows用户可以用`MarkdownPad`或其他。  
+> Linux用户可以用自带的编辑器或其他，你自己看着办。  
+> Android用户可以用`MarkdownX`或其他。    
 Jekyll的`_posts`文件夹里面存放你的所有博文。  
 你从网上下载回来一个Jekyll模板，`_posts`目录里有几篇示例文章。  
 所以写一篇博文要按照`年-月-日-标题(要空格的用-代替或其他).md`进行命题。  
@@ -61,7 +61,7 @@ __强调__
 
 ### 图片
 内联风格 (title 是可选的):
-```css
+```
 ![定义-图片名称](/path/img.jpg "标题")
 ```
 引用风格 (title 是可选的):
