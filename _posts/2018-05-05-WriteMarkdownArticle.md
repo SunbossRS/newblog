@@ -8,35 +8,27 @@ img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/lovely-photo
   
 我这里用的是Jekyll创建的博客，它可以支持用markdown写博文。  
 可以利用Jekyll写博文。  
-  
-写一篇Markdown博文要有好的编辑器。你可以用系统自带的记事本。对于萌新来说，可以使用Markdown的编辑器。 
-   
-> Windows用户可以用`MarkdownPad`或其他。  
-> Linux用户可以用自带的编辑器或其他，你自己看着办。  
-> Android用户可以用`MarkdownX`或其他。    
-  
+写一篇Markdown博文要有好的编辑器。你可以用系统自带的记事本。对于萌新来说，可以使用Markdown的编辑器.  
+!> Windows用户可以用`MarkdownPad`或其他。  
+!> Linux用户可以用自带的编辑器或其他，你自己看着办。  
+!> Android用户可以用`MarkdownX`或其他。    
 Jekyll的`_posts`文件夹里面存放你的所有博文。  
-你从网上下载回来一些Jekyll模板，`_posts`目录里有几篇示例文章。  
+你从网上下载回来一个Jekyll模板，`_posts`目录里有几篇示例文章。  
 所以写一篇博文要按照`年-月-日-标题(要空格的用-代替或其他).md`进行命题。  
   
 ### 段落
 直接在上面写一段字就是一段文本。  
-如果要换行，请在段落的尾部按下两个`空格`
+如果要换行，请在段落的尾部按下两个`空格`来强制换行。
 
 ### 标题
 因为markdown基于html，所以一共有六级标题：
 ```
-# 标题1
-
-## 标题2
- 
-### 标题3
-
-#### 标题4
-
-##### 标题5
- 
-###### 标题6
+# 标题1号
+## 标题2号
+### 标题3号
+#### 标题4号
+##### 标题5号
+###### 标题6号
 ```
 
 ### 强调或突出
@@ -50,19 +42,23 @@ __强调__
 ```
 ### 链接
 内联风格(title 是可选的):
-```css
+```
 [MarkdownX 官方网站](http://markdownx.ryeeeeee.com/ "Title")
 ```
 内联风格 (title 是可选的):
 ```
-[MarkdownX 官方网站][id]。 之后，可以在文档的其他任意地方, 定义这个链接:
+定义内容:
+[MarkdownX 官方网站][id]
 
+之后，可以在文档的其他任意地方, 引用这个链接:
 [id]: http://markdownx.ryeeeeee.com/  "Title"
 ```
+
 ### Email
 ```
-作者的 email <spatblan@gmail.com> 链接.
+这个 email <adminroot@web.com> 链接.
 ```
+
 ### 图片
 内联风格 (title 是可选的):
 ```css
@@ -102,13 +98,15 @@ __强调__
     * 还允许更多层的嵌套
 3. 列表项 3
 ```
+
 ### 引用
 ```
 > 段落前面添加大于号和空格，就能够形成引用段落。
 
 > > 这是嵌套的引用....
 ```
-### 内联代码
+
+### 代码文本块
 `内联代码` 使用反引号包含。  
 输入:
 ```
