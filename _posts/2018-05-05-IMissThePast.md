@@ -12,7 +12,7 @@ img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-T
 ---
 
 可以用爱Minecraft的感情来阅读本文。
-<iframe frameborder="no" border="0" src="//music.163.com/outchain/player?type=2&id=529659114&auto=1&height=66"></iframe>
+<iframe frameborder="no" border="0" height="66" src="//music.163.com/outchain/player?type=2&id=529659114&auto=1&height=66"></iframe>
 
 ### 写在前面的话
 我们先来说一说多玩盒子.
