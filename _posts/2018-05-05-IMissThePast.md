@@ -7,10 +7,11 @@ img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-T
 ---
 
 可怜多玩我的世界和那些回不去MC的人。
+思え、我的世界回忆かす
 
 ---
 
-<iframe height="0" weidth="0" src="https://music.163.com/m/song?id=529659114&auyoplay=true"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=529659114&auto=1&height=66"></iframe>
 
 ### 写在前面的话
 我们先来说一说多玩盒子.
@@ -29,8 +30,8 @@ img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-T
 给你们看看我的帖子吧。挺多的。
 ![avatar](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-The-Past/01.png)
 
-### 其实....我还有很多事情
-不跟你们说，其实我的生活习惯已经360度地改变了。  
+### 其实..
+其实我的生活习惯已经360度地改变了。  
 我再也不能像以前那样玩..  
 我再也不能像以前那样在外吃饭..  
 我再也不能像以前那样放松..  
