@@ -1,22 +1,23 @@
 ---
 layout: post
 title: '网站的存在时间代码'
-categories: tech
+categories: dump
 tags: jekyll
 cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/WebsiteShow/03.png'
 ---
 
 看网站已存在了多少天。
+
 ---
-看看效果图。  
+
+看看效果图  
 ![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/WebsiteShow/03.png)
-我先来讲解一下。  
+先来科普  
 ![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/WebsiteShow/04.png)
-  
-这次，你可以在页尾，也可以在一个html文件，或者其他。总之是一个html的文件。 
-看看代码:
+这次，你可以在页尾，也可以在一个html文件，或者其他html的文件  
+输入代码:
 ```html
- <span id="span_dt_dt"></SPAN>
+<span id="span_dt_dt"></span>
   <script language=javascript>
   function show_date_time(){
   window.setTimeout("show_date_time()", 1000);
@@ -45,4 +46,4 @@ cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/Websit
 </span>
 ```
 把这样代码的创始日期填上，我这里的`"已存在"`可以删除掉。  
-然后看看你的那个网页什么情况。
+然后看看你的那个网页!
