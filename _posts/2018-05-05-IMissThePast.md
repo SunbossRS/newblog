@@ -6,11 +6,12 @@ categories: dump
 img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/I-Miss-The-Past/cover.png'
 ---
 
-可怜多玩我的世界和那些回不去MC的人。
+可怜多玩我的世界和那些回不去MC的人。  
 思え、我的世界回忆かす
 
 ---
 
+可以用爱Minecraft的感情来阅读本文。
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=529659114&auto=1&height=66"></iframe>
 
 ### 写在前面的话
