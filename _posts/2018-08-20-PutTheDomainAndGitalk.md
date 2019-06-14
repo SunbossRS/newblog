@@ -2,6 +2,7 @@
 layout: post
 title: 在装上了新域名后Gitalk的表现
 tags: jekyll
+categories: dump
 ---
 
 啊！要必须指向新域名！
