@@ -48,13 +48,13 @@ cd /bin/
 试了试echo刻录号`>`，还真有document.txt这个内容，能行，真棒！
 ![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCoommand/08.png)  
 搞坏mkdir君...(猥琐的笑容)
-![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/09.png)  
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCoommand/09.png)  
 emmm
-![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/10.png)  
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCoommand/10.png)  
 搞坏mv君(笑得灿烂)...
-![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/11.png)
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCoommand/11.png)
 rm君已死亡[滑稽]
-![pic]({{ site.imgbed }}/img/DefineTerminalCoommand/12.png)
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCoommand/12.png)
   
 *修改于2018年10月19日* v
 --我已经把电脑改回windows了...
