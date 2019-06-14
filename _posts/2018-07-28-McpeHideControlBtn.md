@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MC手机版仿电脑MC去除控制按钮'
-tags: minecraft
+tags: minecraft 多玩mc
 categories: Living
 img: 'http://img.huyagame.cn/images/mc_tie_image/201705/14/1494748189641/201705141549493718_1080.jpeg'
 ---
