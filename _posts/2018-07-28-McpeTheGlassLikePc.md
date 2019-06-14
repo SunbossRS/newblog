@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '老赵的教程_仿pc玻璃'
-tags: 老赵 minecraft 
+tags: 老赵 minecraft 多玩mc
 categories: dump
 img: 'http://img.huyagame.cn/images/mc_tie_image/201706/16/1497616976916/201706162042569167_1080.jpeg'
 ---
