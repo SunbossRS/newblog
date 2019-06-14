@@ -37,5 +37,4 @@ clone https://github.com/SunbossRS/EasierWorkflow.git
 比如使用`GitUpload.sh`，需要在要用的git仓库根目录里创建`$WorkflowUse`文件夹，然后把`GitUpload.sh`复制到`$WorkflowUse`。
 
 ### 图片
-![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/InitJekyllMarkdownArticle/01.png)  
-![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/InitJekyllMarkdownArticle/02.png)  
+![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/InitJekyllMarkdownArticle/01.png)   
