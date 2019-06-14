@@ -56,5 +56,5 @@ emmm
 rm君已死亡[滑稽]
 ![pic](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCoommand/12.png)
   
-*修改于2018年10月19日* v
+*修改于2018年10月19日*   
 --我已经把电脑改回windows了...
