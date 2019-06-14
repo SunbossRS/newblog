@@ -2,6 +2,7 @@
 layout: post
 title: 注册freenom域名并弄到GithubPage
 tags: github
+categories: dump
 ---
 
 Reg freenom.domain to github.page.cname
