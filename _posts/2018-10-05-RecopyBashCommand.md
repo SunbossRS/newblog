@@ -3,7 +3,7 @@ layout: post
 title: '重新自定义命令'
 tags: linux
 categories: dump
-cover: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCoommand/cover.png'
+img: 'https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/DefineTerminalCoommand/cover.png'
 ---
 
 Recopy command"apt-get" to command"brew"
