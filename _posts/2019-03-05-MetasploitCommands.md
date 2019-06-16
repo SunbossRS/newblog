@@ -1,10 +1,9 @@
 ---
 layout: post
 title: '在Msf黑电脑的专用命令'
-subtitle: 'Metasploit'
 tags: linux 命令 shell
-keywords: Msf Metasploit shell 黑电脑 专用
-cover: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/MsfCmd/cover.jpg
+categories: dump
+img: https://coding.net/u/SunbossRS/p/GotBlogDowner/git/raw/master/img/MsfCmd/cover.jpg
 ---
 
 当你进入Meterpreter命令行后，你就可以使用这些命令了。  
