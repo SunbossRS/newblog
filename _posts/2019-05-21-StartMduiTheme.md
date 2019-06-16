@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 开启新主题！
-date: 2019-04-29 23:08:56 +0800
 categories: Living
 tags: jekyll
 img: 
@@ -26,4 +25,4 @@ img:
 如果喜欢/想拥有，请点击下面这里～  
 [jekyll-theme-mdui](https://github.com/kejunmao/jekyll-theme-mdui)  
   
-没错啊，反正我是一个喜欢尝试新鲜事物的人，所以我喜欢`MaterialDesign`...也都喜欢*这个主题*....
+没错啊，反正我是一个喜欢尝试新鲜事物的人，所以我喜欢`MaterialDesign`...也都喜欢*这个主题*....  
