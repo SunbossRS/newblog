@@ -3,6 +3,17 @@
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
     setTimeout(function () {
+      const gitalk = new Gitalk({
+        clientID: '{{ data.site.comment.gitalk_clientID }}',
+        clientSecret: '{{ data.site.comment.gitalk_Secret }}',
+        repo: '{{ data.site.comment.gitalk_repo }}',
+        owner: '{{ data.site.comment.gitalk_owner }}',
+        admin: '{{ data.site.comment.gitalk_admin }}',
+        id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+        distractionFreeMode: '{{ data.site.comment.distractionFreeMode }}'  // Facebook-like distraction free mode
+      });
+        gitalk.render('git_thread');
+      /*
         var gitment = new Gitment({
             id: '{{ page.title }}',
             owner: '{{site.data.site.comment.owner}}',
@@ -13,5 +24,6 @@
             },
         });
         gitment.render('comments');
+      */
     }, 1000)
 </script>
