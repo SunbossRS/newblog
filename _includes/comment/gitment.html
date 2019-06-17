@@ -1,9 +1,11 @@
 <div style="padding:0px 16px;" id="comments"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<!--link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
+<!--script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script-->
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
 <script>
     setTimeout(function () {
-      const gitalk = new Gitalk({
+      var gitalk = new Gitalk({
         clientID: '{{ data.site.comment.gitalk_clientID }}',
         clientSecret: '{{ data.site.comment.gitalk_Secret }}',
         repo: '{{ data.site.comment.gitalk_repo }}',
