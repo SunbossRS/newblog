@@ -1,7 +1,8 @@
 <div style="padding:0px 16px;" id="comments"></div>
-<!--link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css"-->
+<div style="padding:0px 16px;" id="git_thread"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
-<!--script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script-->
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
 <script>
     setTimeout(function () {
@@ -15,7 +16,7 @@
         distractionFreeMode: '{{ data.site.comment.distractionFreeMode }}'  // Facebook-like distraction free mode
       });
         gitalk.render('git_thread');
-      /*
+
         var gitment = new Gitment({
             id: '{{ page.title }}',
             owner: '{{site.data.site.comment.owner}}',
@@ -26,6 +27,5 @@
             },
         });
         gitment.render('comments');
-      */
     }, 1000)
 </script>
