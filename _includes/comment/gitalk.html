@@ -18,8 +18,8 @@ var git = {
     }
 };
 </script -->
-<script src="https://unpkg.com/gitalk@1.2.0/dist/gitalk.min.js"></script> 
-    <script type="text/javascript">
+<script src="https://unpkg.com/gitalk@lastest/dist/gitalk.min.js"></script> 
+<script type="text/javascript">
 setTimeout(function () {
       var gitalk = new Gitalk({
         clientID: "800a929ad18c8e90fdbc",
@@ -30,8 +30,9 @@ setTimeout(function () {
         id: location.pathname,      // Ensure content need to less or equal 50 charters. Can use {{ page.title }}
         distractionFreeMode: true  // Facebook-like distraction free mode
       });
-      gitalk.render('git_thread');
+
+      gitalk.render('git_thread')
 }, 1000)
-    </script>
+</script>
 
     <!--noscript>请确保给予Gitalk运行Javascript的权力。</noscript-->
