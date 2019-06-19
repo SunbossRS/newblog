@@ -1,20 +1,20 @@
-<div style="padding:0px 16px" id="comments"></div>
+<div style="padding:0px 16px; display: none;" id="comments"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
-<!--div class="mdui-divider"></div-->
-<!-- button id="load-git" class="mdui-btn mdui-btn-block mdui-center" onclick="git.load();">加载Gitalk评论</button -->
-<!--script type="text/javascript">
-var git = {
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk-conponent.js"></script> 
+<div class="mdui-divider"></div>
+<button id="load-git" class="mdui-btn mdui-btn-block mdui-center" onclick="gitalk.load();">加载Gitalk评论</button -->
+<script type="text/javascript">
+var gitalk = {
     load : 
     function git(){
-        $('#git_thread').css('display','block');
+        $('#gitalk').css('display','block');
         $('#load-git').remove(); 
     }
 };
-</script -->
+</script>
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
 <script type="text/javascript">
-setTimeout(function() {
+function() {
       var gitalk = new Gitalk({
         clientID: "800a929ad18c8e90fdbc",
         clientSecret: "3dcb1cc3680b9b85ad4291367b4aafefd6806e58",
@@ -26,7 +26,7 @@ setTimeout(function() {
       });
 
       gitalk.render('comments');
-}, 1000)
+};
 </script>
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
 
