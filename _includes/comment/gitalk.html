@@ -1,14 +1,14 @@
 <div style="padding:0px 16px; display: none;" id="comments"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk-conponent.js"></script> 
+<script src="https://github.com/gitalk/gitalk/raw/master/dist/gitalk-conponent.js"></script> 
 <div class="mdui-divider"></div>
-<button id="load-git" class="mdui-btn mdui-btn-block mdui-center" onclick="gitalk.load();">加载Gitalk评论</button -->
+<button id="load" class="mdui-btn mdui-btn-block mdui-center" onclick="talk.load();">加载Gitalk评论</button -->
 <script type="text/javascript">
-var gitalk = {
+var talk = {
     load : 
-    function git(){
-        $('#gitalk').css('display','block');
-        $('#load-git').remove(); 
+    function() {
+        $('#comments').css('display','block');
+        $('#load').remove(); 
     }
 };
 </script>
