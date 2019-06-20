@@ -24,6 +24,48 @@
       template: `<vssue :title="title" :options="options"></vssue>`,
     })
   </script>
+<script>
+Vue.use(Vssue, {
+  // 设置要使用的平台 api
+  api: GithubV4,
+
+  // 在这里设置你使用的平台的 OAuth App 配置
+  owner: 'SunbossRS',
+  repo: 'SunTalk_Save',
+  clientId: '800a929ad18c8e90fdbc',
+  clientSecret: '3dcb1cc3680b9b85ad4291367b4aafefd6806e58', // 只有在使用某些平台时需要
+})
+</script>
+<script>
+<template>
+  <Vssue
+    :title="title"
+    :options="options"
+  />
+</template>
+
+<script>
+export default {
+  name: 'VssueDemo',
+
+  data () {
+    return {
+      // 在这里设置当前页面的 Issue 标题
+      title: 'Vssue Demo',
+
+      // 注意，这里的 options 会覆盖上面通过 `Vue.use()` 设置的默认 options
+      // 如果你不想改变它们，只需要传入 `title` prop 即可，不需要传入 `options` prop
+      options: {
+        // owner: 'OWNER_OF_REPO',
+        // repo: 'NAME_OF_REPO',
+        // clientId: 'YOUR_CLIENT_ID',
+        // clientSecret: 'YOUR_CLIENT_SECRET', // 只有在使用某些平台时需要
+      },
+    }
+  },
+}
+</script>
+
 <VssueDemo platform="github" />
 
 <script type="text/javascript">
