@@ -1,10 +1,11 @@
-<div style="padding:0px 16px; display: block;" id="comments"></div>
+<div class="mdui-divider"></div>
+<div style="padding:0px 16px;" id="gitalk"></div>
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
 <script src="https://github.com/gitalk/gitalk/raw/master/dist/gitalk-conponent.js"></script> 
-<div class="mdui-divider"></div>
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<script src="https://github.com/gitalk/gitalk/raw/master/dist/gitalk.min.js"></script> 
+
 <script type="text/javascript">
-   function() {
       var gitalk = new Gitalk({
         clientID: "800a929ad18c8e90fdbc",
         clientSecret: "3dcb1cc3680b9b85ad4291367b4aafefd6806e58",
@@ -15,8 +16,5 @@
         distractionFreeMode: true  // Facebook-like distraction free mode
       });
 
-      gitalk.render('comments');
-   };
+      gitalk.render('gitalk');
 </script>
-
-    <!--noscript>请确保给予Gitalk运行Javascript的权力。</noscript-->
