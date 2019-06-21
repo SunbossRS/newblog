@@ -1,14 +1,12 @@
-<div class="mdui-divider"></div>
+<br />
 <div style="padding:0px 16px;" id="vssue"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
 <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
 <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
   <script>
     new Vue({
       el: '#vssue',
-
       data: {
         title: '{{post.title}}',
 
@@ -24,6 +22,7 @@
     })
   </script>
 
+<vssue :title="title" :options="options"></vssue>
 <VssueDemo platform="github" />
 
 <!--script type="text/javascript">
