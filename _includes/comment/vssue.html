@@ -5,12 +5,13 @@
 <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
 <script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
 <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
   <script>
     new Vue({
       el: '#vssue',
       render: h => h('Vssue', {
         props: {
-          title: decodeURI(location.pathname) ,
+          title: md5(window.location.pathname) ,
           options: {
             owner: 'SunbossRS',
             repo: 'SunTalk_Save',
