@@ -10,7 +10,7 @@
       el: '#vssue',
       render: h => h('Vssue', {
         props: {
-          title: 'decodeURI(location.pathname)',
+          title: decodeURI(location.pathname) ,
           options: {
             owner: 'SunbossRS',
             repo: 'SunTalk_Save',
