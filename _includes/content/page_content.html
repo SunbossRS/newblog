@@ -1,5 +1,4 @@
 <style>
-
 .k-post-media {
     display:block
     cursor: pointer;
@@ -81,12 +80,22 @@
                 <div class="mdui-card-content mdui-typo">
                     {{ content }}
                 </div>
-                {% if site.data.site.accept_cc4 == true %}
-                <div class="mdui-card-content mdui-typo mdui-card">
-                  {% include component/license.html %}
-                </div>
-                {% endif %}
-                {% include comment/comment.html %}
+            </div>
+       </div>
+      {% if site.data.site.accept_cc4 == true %}
+       <div class="mdui-col-sm-12 k-page-col mdui-col-md-9">
+       <div class="mdui-card k-postcontent">
+       <div class="mdui-card-content mdui-typo mdui-card">
+       {% include component/license.html %}
+       </div>
+       </div>
+       </div>
+      {% endif %}
+             <div class="mdui-col-sm-12 k-page-col mdui-col-md-9">
+             <div class="mdui-card k-postcontent">
+             {% include comment/comment.html %}
+             </div>
+             </div>
             </div>
         </div>
         <div class="mdui-col-md-3 mdui-hidden-sm-down">
