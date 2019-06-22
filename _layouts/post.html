@@ -10,7 +10,10 @@ layout: default
     {% endif %}
     {% endif %}
 {% include content/page_content.html %}
-{% if site.data.site.accept_cc4 == true %}
+
+{% assign data = site.data.site %}
+{% if data.accept_cc4 == true %}
   {% include content/license.html %}
 {% endif %}
+
 {% include content/component/imgboxed.html %}
