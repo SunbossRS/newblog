@@ -83,6 +83,7 @@
             </div>
        </div>
       {% if site.data.site.accept_cc4 == true %}
+       <br/>
        <div class="mdui-col-sm-12 k-page-col mdui-col-md-9">
        <div class="mdui-card k-postcontent">
        <div class="mdui-card-content mdui-typo mdui-card">
@@ -91,9 +92,13 @@
        </div>
        </div>
       {% endif %}
+               {% if site.data.site.comment %}
+               <div class="mdui-col-sm-12 k-page-col mdui-col-md-9">
                <div class="mdui-card k-postcontent">
                {% include comment/comment.html %}
                </div>
+               </div>
+               {% endif %}
             </div>
         </div>
         <div class="mdui-col-md-3 mdui-hidden-sm-down">
