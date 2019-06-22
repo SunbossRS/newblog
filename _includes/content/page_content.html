@@ -81,6 +81,10 @@
                 <div class="mdui-card-content mdui-typo">
                     {{ content }}
                 </div>
+                {% if site.data.site.acxept_cc4 == true %}
+                  <link rel="stylesheet" src="https://unpkg.com/docsify/themes/vue.css">
+                  {% include component/license.html %}
+                {% endif %}
                 {% include comment/comment.html %}
             </div>
         </div>
