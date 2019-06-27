@@ -79,29 +79,15 @@
                 {% include content/component/lastupdate.html %}
                 <div class="mdui-card-content mdui-typo">
                     {{ content }}
+                {% if site.data.site.accept_cc4 == true %}
+                  {% include component/license.html %}
+                {% endif %}
+                {% if site.data.site.comment %}
+                  {% include comment/comment.html %}
+                {% endif %}
                 </div>
             </div>
        </div>
-      {% if site.data.site.accept_cc4 == true %}
-       <br/>
-       <div class="mdui-col-sm-12 k-page-col mdui-col-md-9">
-       <div class="mdui-card k-postcontent">
-       <div class="mdui-card-content mdui-typo mdui-card">
-       {% include component/license.html %}
-       </div>
-       </div>
-       </div>
-      {% endif %}
-               {% if site.data.site.comment %}
-               <br/>
-               <div class="mdui-col-sm-12 k-page-col mdui-col-md-9">
-               <div class="mdui-card k-postcontent">
-               {% include comment/comment.html %}
-               </div>
-               </div>
-               {% endif %}
-            </div>
-        </div>
         <div class="mdui-col-md-3 mdui-hidden-sm-down">
             {% include content/component/toc.html %}
         </div>
