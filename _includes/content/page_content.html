@@ -1,4 +1,5 @@
 <style>
+
 .k-post-media {
     display:block
     cursor: pointer;
@@ -79,15 +80,13 @@
                 {% include content/component/lastupdate.html %}
                 <div class="mdui-card-content mdui-typo">
                     {{ content }}
-                {% if site.data.site.accept_cc4 == true %}
-                  {% include component/license.html %}
-                {% endif %}
-                {% if site.data.site.comment %}
-                  {% include comment/comment.html %}
-                {% endif %}
                 </div>
+                {% if site.data.site.creativecommon4license == true %}
+                  {% include content/component/creativecommon.html %}
+                {% endif %}
+                {% include comment/comment.html %}
             </div>
-       </div>
+        </div>
         <div class="mdui-col-md-3 mdui-hidden-sm-down">
             {% include content/component/toc.html %}
         </div>
