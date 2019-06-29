@@ -1,9 +1,19 @@
-<div class="mdui-card-content mdui-typo"><hr/></div>
-<div id="vssue"></div>
+<div class="mdui-divider"></div>
 <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
 <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
 <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
 <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+<button id="loadmangr" class="mdui-btn mdui-btn-block mdui-center" onclick="vssue.load();" >加载Vssue评论</button>
+<div style="padding:0px 16px; display:none;" id="vssue"></div>
+<script>
+var vssue = {
+    load : 
+    function(){
+        $('#disqus_thread').css('display','block');
+        $('#loadmangr').remove(); 
+    }
+};
+    </script>
   <script>
     usepath = location.pathname.replace('/dump','');
     usepath = usepath.replace('/Living','');
