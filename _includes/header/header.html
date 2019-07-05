@@ -108,7 +108,7 @@
         </div>
     </div>
     {% endif %}
-    <ul id="k-mobile-menus" class="mdui-list">
+    <ul style="color: #fafafa" id="k-mobile-menus" class="mdui-list">
         {% for menu in site.data.menus %}
         {% if menu.name != "navSearch" %}
         <a href="{{menu.url | prepend: site.baseurl }}" class="mdui-list-item mdui-ripple {% if menu.url == page.url %}mdui-list-item-active{% endif %}">
