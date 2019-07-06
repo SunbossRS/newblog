@@ -5,6 +5,15 @@
   <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
 </head>
 <body>
+  <div class="col-sm-10">
+    <input class="form-control" id="url_txt" name="url_txt" type="text" value="http://www.jsons.cn/" placeholder="例如：http://www.jsons.cn" />
+  </div>
+  <label class="col-sm-2 control-label">新浪短连接地址：</label>
+  <div class="col-sm-10">
+    <input class="form-control" id="longurl" type="text" value="http://t.cn/RyXDGMJ" placeholder="新浪短连接地址" />
+  </div>
+
+
   <div id="vssue"> </div>
   <script src="https://unpkg.com/vue/dist/vue.runtime.min.js"></script>
   <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
@@ -13,7 +22,7 @@
       el: '#vssue',
       render: h => h('Vssue', {
         props: {
-          title: 'Vssue Demo',
+          title: 'Testm',
           options: {
             owner: 'SunbossRS',
             repo: 'vssue-demo',
@@ -25,4 +34,13 @@
     })
   </script>
 </body>
+    <script src="//www.jsons.cn/Style/js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="//www.jsons.cn/Style/js/bootstrap3.5min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        function short() {
+            document.all.form1.action = "/testc.html";
+        };
+    </script>
+
 </html>
