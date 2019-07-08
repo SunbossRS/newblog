@@ -6,7 +6,7 @@
 </head>
 <body>
 <script>
-var urlStr = httpa://sunbossrs.js.org/
+var urlStr = https://sunbossrs.js.org/
 
 function GetShortUrl() {  
     $.ajax({  
@@ -16,7 +16,7 @@ function GetShortUrl() {
         json: 'callback',  
         data : {},  
         success : function(r) {  
-            return r[0].url_short; //生成的短链接  
+            document.write (r[0].url_short) ; //生成的短链接  
         }
     });  
 };
