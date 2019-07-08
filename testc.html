@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Vssue Demo</title>
+  <title>Background TestProject 2.0</title>
   <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
 <script>
-var urlStr = https://sunbossrs.js.org/
+var appkey = 1206405345
+var curl = https://sunbossrs.js.org/
 
-function GetShortUrl() {  
+function () {  
     $.ajax({  
         type : 'GET',  
-        url : 'http://api.t.sina.com.cn/short_url/shorten.json?source=appkey&url_long='+urlStr,//source为新浪appkey，最好用自己的  
+        url : 'http://api.t.sina.com.cn/short_url/shorten.json?source='+appkey+'&url_long='+curl , 
         dataType : 'JSONP',  
         json: 'callback',  
         data : {},  
