@@ -19,7 +19,7 @@
         dataType : 'JSONP',  
         json: 'callback',  
         data: {},  
-        error: {document.write(error);},
+        error: function(){document.write(error);},
         success: function(r) {  
             document.write (r[0].url_short) ; //生成的短链接  
         }
