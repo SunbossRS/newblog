@@ -1051,7 +1051,7 @@ $('.chips-placeholder').material_chip({
       }
     }
 
-    filename = new Date().toLocaleDateString('zh-CN', { hour12: false},'year,month').replace(/\//g,"-") + "-" + k_getFiletitle($('#nameTitle').val()) + ".md";
+    filename = new Date().toLocaleDateString('zh-CN', { hour12: false},'year,month').replace(/\//g,"-") + "-" + k_getFiletitle($('#nametitle').val()) + ".md";
     filecontent = "---\nlayout: post\ntitle: "+$('#editorTitle').val()+"\ndate: "+$('#editorDate').val()+" "+ new Date().toLocaleTimeString('en-US', { hour12: false }) +" +0800\ncategories: "+k_getCategories($("input[name='categories']:checked").val())+"\ntags: "+getTags($('.chips-initial').material_chip('data'))+"\nimg: "+$('#imgurl').val()+"\n---\n"+$('#editorContent').val();
     $(this).attr("download",filename);
     $(this).attr("href",makeTextFile(filecontent));
