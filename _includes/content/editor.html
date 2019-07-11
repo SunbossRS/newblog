@@ -36,11 +36,12 @@
       <div class="mdui-dialog-title">{{lang.editor.frontmatter.name}}</div>
         <h3>{{lang.editor.frontmatter.title}}</h3>
         <div class="mdui-textfield">
-            <input id="editorTitle" class="mdui-textfield-input" type="text"/>
+            <input id="editorTitle" class="mdui-textfield-input" type="text" placeholder="文章题目"/>
+            <input id="nametitle" class="mdui-textfield-input" type="text" placeholder="简率的题目"/>
         </div>
         <h3>{{lang.editor.frontmatter.date}}</h3>
         <div class="mdui-textfield">
-            <input id="editorDate" class="mdui-textfield-input datepicker" type="date"/>
+            <input id="editorDate" class="mdui-textfield-input datepicker" type="date" placeholder="写入文章的日期时间"/>
         </div>
         <h3>{{lang.editor.frontmatter.categories}}</h3>
         <div class="mdui-row-md-4 mdui-row-sm-3">
@@ -67,7 +68,7 @@
         <div class="chips chips-initial"></div>
         <h3>{{lang.editor.frontmatter.image}}</h3>
         <div class="mdui-textfield">
-            <input id="imgurl" class="mdui-textfield-input" type="text" placeholder="imgUrl"> 
+            <input id="imgurl" class="mdui-textfield-input" type="text" placeholder="文章图像的链接"> 
         </div>
     </div>
 </div>
@@ -99,13 +100,13 @@
     <div class="mdui-card-content">
         <h3>{{lang.editor.content}}</h3>
         <div class="mdui-textfield">
-            <textarea id="editorContent" class="mdui-textfield-input" placeholder="Description"></textarea>
+            <textarea id="editorContent" class="mdui-textfield-input" placeholder="文章内容"></textarea>
         </div>
     </div>
     <div class="mdui-card-actions">
         <a class="mdui-btn mdui-ripple" mdui-dialog="{target: '#frontMatter'}">{{lang.editor.frontmatter.name}}</a>
         <a id="previewBtn" class="mdui-btn mdui-ripple" mdui-dialog="{target: '#preview'}">{{lang.editor.preview}}</a>
-        <a id="download" class="mdui-btn mdui-ripple mdui-float-right">{{lang.editor.download}}</a>
+        <a id="download" class="mdui-btn mdui-ripple mdui-float-right">生成</a>
     </div>
 </div>
 </div>
@@ -1050,7 +1051,7 @@ $('.chips-placeholder').material_chip({
       }
     }
 
-    filename = new Date().toLocaleDateString('zh-CN', { hour12: false},'year,month').replace(/\//g,"-") + "-" + k_getFiletitle($('#editorTitle').val()) + ".markdown";
+    filename = new Date().toLocaleDateString('zh-CN', { hour12: false},'year,month').replace(/\//g,"-") + "-" + k_getFiletitle($('#nameTitle').val()) + ".md";
     filecontent = "---\nlayout: post\ntitle: "+$('#editorTitle').val()+"\ndate: "+$('#editorDate').val()+" "+ new Date().toLocaleTimeString('en-US', { hour12: false }) +" +0800\ncategories: "+k_getCategories($("input[name='categories']:checked").val())+"\ntags: "+getTags($('.chips-initial').material_chip('data'))+"\nimg: "+$('#imgurl').val()+"\n---\n"+$('#editorContent').val();
     $(this).attr("download",filename);
     $(this).attr("href",makeTextFile(filecontent));
