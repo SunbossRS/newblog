@@ -15,6 +15,7 @@ zh-CN:
          categories: "分类"
          tags: "标签"
          image: "图像"
+         imageinput: "文章图像的链接"
       preview: "预览"
       download: "保存并下载"
    lastupdate: 
@@ -52,13 +53,17 @@ en-US:
           sitemap: "Sitemap"
    editor: 
       content: "Content"
+      textarea: "Type here.."
       frontmatter:
+         filenametitle: "Filename title"
          name: "Front Matter"
          title: "Title"
          date: "Date"
+         dateinput: "The date when make this post"
          categories: "Categories"
          tags: "Tags"
          image: "Image"
+         imageinput: "The link for post's head"
       preview: "Preview"
       download: "Download"
    lastupdate: 
