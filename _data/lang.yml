@@ -5,10 +5,13 @@ zh-CN:
           sitemap: "站点地图"
    editor: 
       content: "内容"
+      textarea: "请在此输入文章内容.."
       frontmatter:
+         filenametitle: "文件名标题"
          name: "设置和开头"
          title: "标题"
          date: "日期"
+         dateinput: "写入文章的日期时间"
          categories: "分类"
          tags: "标签"
          image: "图像"
