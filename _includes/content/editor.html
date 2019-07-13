@@ -33,15 +33,14 @@
 <div class="k-container">
 <div class="mdui-dialog" id="frontMatter">
     <div class="mdui-dialog-content">
-      <div class="mdui-dialog-title">{{lang.editor.frontmatter.name}}</div>
+      <div class="mdui-dialog-title">{{lang.editor.frontmatter.name}}</div>&nbsp;<a href="#"><div class="mdui-dialog-title">×</div></a>
         <h3>{{lang.editor.frontmatter.title}}</h3>
         <div class="mdui-textfield">
-            <input id="editorTitle" class="mdui-textfield-input" type="text" placeholder="文章题目"/>
-            <input id="nametitle" class="mdui-textfield-input" type="text" placeholder="简率的题目"/>
+            <input id="nametitle" class="mdui-textfield-input" type="text" placeholder="{{lang.frontmatter.filenametitle}}"/>
         </div>
         <h3>{{lang.editor.frontmatter.date}}</h3>
         <div class="mdui-textfield">
-            <input id="editorDate" class="mdui-textfield-input datepicker" type="date" placeholder="写入文章的日期时间"/>
+            <input id="editorDate" class="mdui-textfield-input datepicker" type="date" placeholder="{{lang.editor.frontmatter.dateinput}}"/>
         </div>
         <h3>{{lang.editor.frontmatter.categories}}</h3>
         <div class="mdui-row-md-4 mdui-row-sm-3">
@@ -58,7 +57,7 @@
                 <label id="radio_custom" class="mdui-radio mdui-float-left">
                     <input type="radio" value="radio_custom" name="categories">
                     <i class="mdui-radio-icon"></i>
-                    </label>
+                </label>
                 <div style="padding-top: 0px;" class="mdui-textfield">
                     <input id="editorCategories" class="mdui-textfield-input" name="radio_custom" type="text" placeholder="categories">
                 </div>
@@ -98,9 +97,13 @@
 
 <div class="mdui-card">
     <div class="mdui-card-content">
+       <h3>{{lang.editor.frontmatter.title}}</h3>
+       <div class="mdui-textfield">
+         <input id="editorTitle" class="mdui-textfield-input" type="text" placeholder="{{lang.editor.frontmatter.title}}"/>
+       </div>
         <h3>{{lang.editor.content}}</h3>
         <div class="mdui-textfield">
-            <textarea id="editorContent" class="mdui-textfield-input" placeholder="文章内容"></textarea>
+            <textarea id="editorContent" class="mdui-textfield-input" placeholder="{{lang.editor.textarea}}"></textarea>
         </div>
     </div>
     <div class="mdui-card-actions">
