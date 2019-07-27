@@ -28,11 +28,20 @@ height:600px;
 </style>
 
 <div class="k-posts-list"></div>
-<div class="head-card-offset"></div>
+<div class"head-card-offset"></div>
 
-<div class="animated mdui-card-primary mdui-row mdui-col-sm mdui-card-media-covered-gradient k-list-card mdui-shadow-{{site.data.site.card.card_shadow}} {% if site.data.site.card.card_hoverable == true%}mdui-hoverable{% endif %}">
-  <div class="mdui-card k-head-card-media mdui-card-media mdui-card-media-covered long" style="background-image:url('https://ooo.0o0.ooo/2017/06/19/5947b272d418b.jpg')"></div>
-  <div class="mdui-card-header k-head-card-content">
-    <div class="mdui-card-header-title">{{ site.title }}</div>
-  </div>
+<div class="mdui-container">
+<div class="head_card-offset"></div>
+ <div class="mdui-row mdui-col-sm">
+   <div class="mdui-card k-list-card mdui-shadow-1 ">
+     <div class="mdui-card-media k-head-card-media" style="background-image:url('https://ooo.0o0.ooo/2017/06/19/5947b272d418b.jpg')">
+       <div class="mdui-card-media-covered mdui-card-media-covered-gradient mdui-card-primary"></div>
+     </div>
+   </div>
+   <div class="mdui-divider"></div>
+   <div class="mdui-card-header k-head-card-content">
+     <div class="mdui-card-header-title">{{site.title}}</div>
+   </div>
 </div>
+</div>
+<br />
