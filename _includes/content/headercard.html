@@ -2,8 +2,8 @@
 .k-head-card-media{
 display: block
 cursor: pointer;
-max-height: 500px;
-min-height: 500px;
+max-height: 180px;
+min-height: 180px;
 background-position: 50% 50%;
 background-size: cover;
 background-color: white;
@@ -27,12 +27,10 @@ margin: 0 auto;
 <div class="k-posts-list"></div>
 <div class="head_card-offset"></div>
 
-<div class="mdui-card-primary mdui-row mdui-col-sm">
-  <div class="mdui-card-media-covered-gradient k-list-card mdui-shadow-{{site.data.site.card.card_shadow}} {% if site.data.site.card.card_hoverable == true%}mdui-hoverable{% endif %}">
+<div class="mdui-card-primary mdui-row mdui-col-sm mdui-card-media-covered-gradient k-list-card mdui-shadow-{{site.data.site.card.card_shadow}} {% if site.data.site.card.card_hoverable == true%}mdui-hoverable{% endif %}">
     <div class="animated k-head-card-media mdui-card mdui-card-media mdui-card-media-covered" style="background-image:url('https://ooo.0o0.ooo/2017/06/19/5947b272d418b.jpg')"></div>
     <div class="mdui-divider"></div>
     <div class="mdui-card-header mdui-card k-head-card-content">
       <div class="mdui-card-header-title">{{ site.title }}</div>
     </div>
-  </div>
 </div>
