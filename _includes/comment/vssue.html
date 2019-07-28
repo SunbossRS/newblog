@@ -11,7 +11,6 @@ var vssue = {
     function vssue(){
         $('#vssue').css('display','block');
         $('#load-vssue').remove(); 
-        setTimeout(function () {
             new Vue({
               el: '#vssue',
               render: h => h('Vssue', {
@@ -25,7 +24,6 @@ var vssue = {
                  },
               }
             })
-        },1000)
     }
 };
 </script>
