@@ -11,6 +11,7 @@ var vssue = {
     function vssue(){
         $('#vssue').css('display','block');
         $('#load-vssue').remove(); 
+        $('#vssue').sleep(6);
         new Vue({
           el: '#vssue',
           render: h => h('Vssue', {
