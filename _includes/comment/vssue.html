@@ -1,8 +1,19 @@
-<div class="mdui-divider"></div>
 <link rel="stylesheet" href="https://unpkg.com/vssue/dist/vssue.min.css">
 <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
 <script src="https://unpkg.com/vssue/dist/vssue.github.min.js"></script>
 <script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+
+<div class="mdui-divider"></div>
+<button id="load-vssue" class="mdui-btn mdui-btn-block mdui-center" onclick="vssue.load();">加载Vssue评论</button>
+<script>
+var vssue = {
+    load : 
+    function disqus(){
+        $('#vssue').css('display','block');
+        $('#load-vssue').remove(); 
+    }
+};
+</script>
 <div style="padding:0px 16px; display:none;" id="vssue"></div>
 <script>
     usepath = location.pathname.replace('/dump','');
@@ -22,4 +33,4 @@
       }
       })
     })
-  </script>
+</script>
