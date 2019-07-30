@@ -13,7 +13,7 @@ img:
 ### 需要の东西
 - 一台Windows10电脑
   - 拥有WSL
-  - 带有wget功能
+  - WSL要带有wget功能
 - vnc连接软件
   - 最好是realvnc的
 
@@ -32,12 +32,10 @@ sudo sh 发行系统-桌面环境.sh
 在这个脚本中自带安装了`tightvncserver`和`vnc4server`，可以利用vnc进行浏览桌面。  
 运行命令:
 ```bash
-tightvncserver -remove :1
-```
-```bash
+tightvncserver -kill :1
 tightvncserver :2300
 ```
 端口可以任意配置，这里我配置了2300端口。  
 
 ### 03. 打开vnc浏览软件并浏览
-打开vnc浏览软件，然后输入`localhost:2300`或者是`127.0.0.1:2300`，就能看见桌面啦！
+打开vnc浏览软件，然后输入浏览ip地址`localhost:2300`或者`127.0.0.1:2300`，就能看见成果啦;-)！
