@@ -29,7 +29,7 @@ sudo sh 发行系统-桌面环境.sh
 ```
 
 ### 02. 修改tightvncservser
-在这个脚本中自带安装了`tightvncserver`和`xvnc`，可以利用vnc进行浏览桌面。  
+在这个脚本中自带安装了`tightvncserver`和`vnc4server`，可以利用vnc进行浏览桌面。  
 运行命令:
 ```bash
 tightvncserver -remove :1
